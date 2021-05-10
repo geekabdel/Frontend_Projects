@@ -1,0 +1,35 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+body {
+  background-image: url(../bg.jpg);
+  background-size: cover;
+}
+form {
+  width: 370px;
+  height: 437px;
+
+  margin: 100px auto;
+}
+input {
+  height: 70px;
+  width: 90px;
+  border: 2px solid #464646;
+  font-size: 30px;
+  background-color: white;
+}
+input.screen {
+  width: 100%;
+  background-color: rgb(31, 30, 30);
+  font-size: 60px;
+  color: white;
+  padding: 5px;
+}
+input.equal {
+  height: 290px;
+  background-color: rgb(255, 87, 21);
+}
